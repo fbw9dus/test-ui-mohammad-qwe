@@ -1,0 +1,35 @@
+.container-fluid{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:7vw;
+}
+body{
+    background: black;
+}
+.btn{
+width: 100%;
+background: rgb(143, 6, 143);
+
+}
+@media(min-width:960px){
+    .btn:hover{
+   background: darkgoldenrod;
+    }
+  
+}
+@media(max-width:576px){
+    .special{
+        display: none;
+    }
+   .reverse{
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-between;
+   }
+   .mad{
+       display: none;
+   }
+ 
+
+}
