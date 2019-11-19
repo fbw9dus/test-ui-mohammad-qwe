@@ -19,9 +19,14 @@ Projekt für Test im UI Modul
 ![](drafts/desktop.JPG)
 ![](drafts/desktop-button-hover.JPG)
 
-###   __/60 Punkten
+###   55/60 Punkten
 #### Punktabzüge für:
-- [_] (10) Elemente passen sich nicht an Fensterbreite an
+- [x] (5) Elemente passen sich nicht an Fensterbreite an
+```diff
+- Scrollleiste am unteren Fensterrand
+- Elemente im header sind bei einigen Fensterbreiten falsch angeordnet
+- Text in Navigationselementen bricht bei einigen Fensterbreiten um
+```
 - [_] (10) Tags nicht geschlossen oder falsch verschachtelt
 - [_] (5) Block-Tag in Inline-Tag
 - [_] (5) Kinder-Tags im Code nicht eingerückt
